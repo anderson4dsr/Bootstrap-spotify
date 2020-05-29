@@ -1,16 +1,16 @@
 /* layout*/
 body{
 	height: 100%;
-	border:1px solid red;
+	overflow-x: hidden;
 }
 
 html {
 	height: 100%;
-	border:1px solid blue;
+	overflow-x: hidden;
 }
 #home{
-	border:1px solid blue;
 	height: 100%;
+	overflow-x: hidden;
 }
 
 body{
@@ -76,6 +76,36 @@ _________________________*/
 	background: grey;
 }
 
+#servicos{
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#servicos h2,h3{
+	color:#7c25f8;
+}
+
+#recursos h2,h3{
+	color:white;
+}
+
+.rotacionar{
+	transform: rotate(30deg);
+	padding-left: 80px;
+}
+
+h2{
+	font-size:3em;
+	font-weight:700;
+	letter-spacing:-0.04em; 
+}
+
+h3{
+	font-size:2em;
+	font-weight:700;
+	letter-spacing:-0.04em; 
+}
+
 h1{
 	font-weight: 900;
 	letter-spacing: -0.05em;
@@ -111,3 +141,4 @@ h1{
 			font-size: 3em;
 		}
 	}
+
